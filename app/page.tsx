@@ -10,12 +10,12 @@ export default function Home() {
       {/** Page Title */}
       <h1 className="text-5xl font-semibold text-slate-800 mt-2 mb-10 md:mb-12 bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 via-black to-neutral-950 ">{`Fitness`}</h1>
 
-      {/** Tier1 */}
+      {/** Part1 */}
       <div className="flex flex-col w-full h-full mt-12">
-        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 mb-3">{`Tier 1: General Full Body Fitness`}</h1>
+        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 mb-3">{`Part 1: General Full Body Fitness`}</h1>
         <div className="bg-gradient-to-r from-purple-900 to-purple-300 h-[2px]"></div>
 
-        {/** Tier1 ContentWrap */}
+        {/** Part1 ContentWrap */}
         <div className="p-4 mt-2 mx-auto">
 
           <div className="flex flex-row bg-neutral-100 rounded-xl p-3 pl-4 border border-neutral-300 shadow-md">
@@ -41,7 +41,7 @@ export default function Home() {
             <HumanBodySVG/>
           </div>
 
-          {/** Tier1 Blurb */}
+          {/** Part1 Blurb */}
           <p className="text-sm">{`This doesn't cover everything of course.  Foot and ankle health is another overlooked area... Barefoot shoes and toe spacers can help loosen cramped feet from years in tight shoes, which `}<em>could</em>{` help with arch and plantar fasciitis issues 🤷`}</p>
           <p className="text-sm mt-3">{`Pair that with stretches on a slant board (or better, deficit jefferson curls), and now you're also loosening your tight calves and hamstrings and lower back. And hanging is great for your shoulders and ribs.`}</p>
           <p className="text-sm mt-3">{`The thing with stretching is, a lot of issues associated with muscle tightness, particularly in areas like the hip flexor that are key to mobility, are really strength issues. So, stretch (and breath deep when you stretch), but if you can use weights by hanging or grabbing a dumbell, then use weights.  `}<em className="font-semibold">{`Strengthening your body in the lenghtened position will actually improve your "flexibility" (range of motion) faster and more sustainably.`}</em></p>
@@ -58,12 +58,12 @@ export default function Home() {
         </div>
       </div>
 
-      {/** Tier2 */}
+      {/** Part2 */}
       <div className="flex flex-col w-full h-full mt-12">
-        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 mb-3">{`Tier 2: Exercises and Exercise Variations`}</h1>
+        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 mb-3">{`Part 2: Exercises and Exercise Variations`}</h1>
         <div className="bg-gradient-to-r from-purple-900 to-purple-300 h-[2px]"></div>
         
-        {/** Tier2 ContentWrap */}
+        {/** Part2 ContentWrap */}
         <div className="p-4 mt-2 mx-auto w-full">
         
           <div className="flex flex-col bg-neutral-100 rounded-xl p-4  border border-neutral-300 shadow-md">
@@ -78,37 +78,37 @@ export default function Home() {
           <p className="text-sm mt-8 font-bold">{`Table of Exercise Variations:`}</p>
           <div className="my-8"><ExerciseVariants/></div>
           
-          {/** Tier2 Blurb */}
+          {/** Part2 Blurb */}
           <p className="text-sm mt-4 font-bold"></p>
 
         </div>
       </div>
 
-      {/** Tier3 */}
+      {/** Part3 */}
       <div className="flex flex-col w-full h-full mt-12">
-        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 mb-3">{`Tier 3: Program Variations`}</h1>
+        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 mb-3">{`Part 3: Program Variations`}</h1>
         <div className="bg-gradient-to-r from-purple-900 to-purple-300 h-[2px]"></div>
         
-        {/** Tier3 Blurb */}
+        {/** Part3 Blurb */}
         <div className="mt-4 flex flex-col bg-neutral-100 rounded-xl p-4 border border-neutral-300 shadow-md">
           <p className="text-sm">{`IMO, a simple push/pull method is a great way to get started and learn basic form and function for different muscles and exercises.  As you work the program you'll find the right rep/effort mix for your strength and growth goals.`}</p>
           <p className="text-sm mt-4">{`The main reason I like push/pull is because it promotes balance from the start.  I advocate for mixing in single-leg pistol squats, RDLs and dumbbell work to maintain a left-right balance, but before all that is a simple push-pull.`}</p>
           <p className="text-sm mt-4">{`Your quads and hamstrings should be strong together. Your back and chest should be strong together. Push/pull gets at this and also accounts for the need to train your back and chest horizontally and vertically (Rows & Bench, Pull-ups & Pull-downs/Presses). If you have no goal in mind, start here.`}</p>
         </div>
 
-        {/** Tier3 Program Accordion */}
+        {/** Part3 Program Accordion */}
         <div className="py-4 w-full">
           <ProgramCarousel/>
         </div>
 
       </div>
 
-      {/** Tier4 */}
+      {/** Part4 */}
       <div className="flex flex-col w-full h-full mt-12">
-        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 mb-3">{`Tier 4: FAQ`}</h1>
+        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 mb-3">{`Part 4: FAQ`}</h1>
         <div className="bg-gradient-to-r from-purple-900 to-purple-300 h-[2px]"></div> 
         
-        {/** Tier4 ContentWrap */}
+        {/** Part4 ContentWrap */}
         <div className="py-4 w-full">
           <FaqAccordion/>          
         </div>
